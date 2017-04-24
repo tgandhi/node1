@@ -1,6 +1,9 @@
 var express = require('express');
 var http = require('http');
+var mysql = require('mysql');
+
 var app = express();
+
 var portx = process.env.PORT;  // This is my addition
 app.get('/', function (req, res) {
   res.send('Hello World!')
@@ -14,6 +17,7 @@ var connection = mysql.createConnection({
   password : 'demo',
   database : 'ssparkl',
 });
+
 app.use(function(req, res, next) {
    res.header("Access-Control-Allow-Origin", "*");
    res.header('Access-Control-Allow-Methods', 'DELETE, PUT');
