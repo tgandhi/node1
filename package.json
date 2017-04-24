@@ -1,0 +1,24 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "multi.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgandhi/node1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgandhi/node1/issues"
+  },
+  "homepage": "https://github.com/tgandhi/node1#readme"
+}
